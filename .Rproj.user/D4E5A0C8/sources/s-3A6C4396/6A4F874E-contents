@@ -27,18 +27,6 @@ a <- 2
 3 -> b
 ```
 
-```{r}
-my_108_total_credits <- 15
-_108_total_credits <- 15
-108_total_credits <- 15
-_my_108_total_credits <- 15
-my.108.total_credits <- 15
-.108.total_credits <- 15 # 隱藏變數
-.my.108.total_credits <- 15
-我的108學年總學分數 <- 15
-`我的108學年總學分數` <- 15 # 特殊名稱處理，`不是名稱的一部份
-`.108.total_credits` <- 15
-```
 
 ```{r}
 我的年紀 <- 20
@@ -81,6 +69,52 @@ typeof(num)
 typeof(int)
 typeof(char)
 typeof(logi)
+```
+
+```{r}
+# 10位學生的主系
+majors10_char <- c('經濟學系','社會學系','社會學系','經濟學系','經濟學系','社會學系','經濟學系','經濟學系','經濟學系','社會學系')
+
+typeof(majors10_char)
+class(majors10_char)
+```
+
+```{r}
+stringInteger <- c("1","2","-11")
+class(stringInteger) # 無法進行數值運算
+stringInteger
+```
+
+```{r}
+as.integer(stringInteger)
+class(stringInteger)
+```
+
+```{r}
+studentId <- c(410773002, 410773015)
+class(studentId)
+as.character(studentId)
+```
+
+```{r}
+install.packages("lubridate")
+```
+```{r}
+library(lubridate)
+```
+
+```{r}
+library(lubridate)
+tpeTime <- ymd_hms("2020-03-18 13:52:40",
+        tz="Asia/Taipei")
+```
+
+```{r}
+browseURL("https://docs.google.com/spreadsheets/d/1EAG49qDKPWWi0ebkVr29TLrvVnoBPfkvxYY-J3xLAHY/edit#gid=458686645")
+```
+
+```{r}
+studentTime <- ymd_hms(c("2020-03-04T06:56:29Z","2020-03-11 14:16:43","2020-03-11 14:34:33"))
 ```
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
