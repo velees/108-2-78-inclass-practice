@@ -1,27 +1,26 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1584516764937.000,
-    "dirty" : true,
+    "created" : 1586162926844.000,
+    "dirty" : false,
     "encoding" : "",
     "folds" : "",
     "hash" : "0",
-    "id" : "6A4F874E",
+    "id" : "E0F62F3C",
     "lastKnownWriteTime" : 7595413604534213742,
-    "last_content_update" : 1585127019534,
+    "last_content_update" : 1586162926844,
     "path" : null,
     "project_path" : null,
     "properties" : {
-        "cursorPosition" : "116,46",
-        "last_setup_crc32" : "3A6C43965d1912c1",
-        "scrollLine" : "108",
-        "tempName" : "Untitled2"
+        "id" : "652303e1962f490d9392ac430edfb8cb",
+        "name" : "semester1",
+        "title" : "semester1"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 2,
+    "relative_order" : 3,
     "source_on_save" : false,
     "source_window" : "",
-    "type" : "r_markdown"
+    "type" : "object_explorer"
 }
