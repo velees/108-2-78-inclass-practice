@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "65033044",
+    "hash" : "0",
     "id" : "100AE0CC",
     "lastKnownWriteTime" : 1587388134,
     "last_content_update" : 1587388134,
     "path" : "C:/Users/user/Downloads/homework2-410573052.Rmd",
     "project_path" : null,
     "properties" : {
+        "cursorPosition" : "15,0",
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [

@@ -324,6 +324,14 @@ a[c(5,6)] <- c("J", "K")
 a
 ```
 
+```{r}
+num1 <- c(1, 5, -3)
+num2 <- c(33.5, 12.28, 57)
+num3 <- c(-2L, 4L, 8L,5L)
+num4 <- c(0.1, 0.22)
+num5 <- 3.3
+```
+
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
@@ -331,6 +339,7 @@ When you click the **Knit** button a document will be generated that includes bo
 ```{r cars}
 summary(cars)
 ```
+
 
 ## Including Plots
 
