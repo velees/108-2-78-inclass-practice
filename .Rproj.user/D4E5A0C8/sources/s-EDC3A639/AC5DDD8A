@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587545933869.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AC5DDD8A",
+    "lastKnownWriteTime" : 1587545819,
+    "last_content_update" : 1587545937227,
+    "path" : "C:/Users/user/Downloads/exam1-410573052.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "14,74",
+        "last_setup_crc32" : "",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587538232492.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4262141892",
+    "id" : "500FCAE1",
+    "lastKnownWriteTime" : 1587538203,
+    "last_content_update" : 1587538503354,
+    "path" : "C:/Users/user/Downloads/homework2-ans-public.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "last_setup_crc32" : ""
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587541798493.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "45F547C9",
+    "lastKnownWriteTime" : 1587546029,
+    "last_content_update" : 1587546029943,
+    "path" : "C:/Users/user/Downloads/homework1-ans-public.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "231,0",
+        "last_setup_crc32" : "",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
