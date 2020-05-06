@@ -1,4 +1,0 @@
-"0","receipts300[""૧""] <- 1"
-"0","sum(receipts300[""૧""])"
-"2","Error in sum(receipts300[""<U+0AE7>""]) : 'type' (character) 的引數無效
-"
