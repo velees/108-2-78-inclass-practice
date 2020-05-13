@@ -333,6 +333,20 @@ num5 <- 3.3
 ```
 
 ```{r}
+install.packages("htmlwidgets")
+```
+
+```{r}
+heartSutra <- c("舍利子，色不異空，空不異色；色即是空，空即是色。")
+str_view_all(heartSutra,"色") # 檢視
+str_count(heartSutra,"色") # 計數
+```
+
+```{r}
+jsonlite::fromJSON("https://od.cdc.gov.tw/eic/Day_Confirmation_Age_County_Gender_19CoV.json") -> covid19
+```
+
+```{r}
 source("https://www.dropbox.com/s/mk7bxvu6a3lxf79/studentEnvironmentReport.R?dl=1",print.eval = T)
 ```
 
