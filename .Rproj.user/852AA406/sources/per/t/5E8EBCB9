@@ -3,7 +3,7 @@
     "path": "F:/資料科學/class2.Rmd",
     "project_path": null,
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "1019102125",
     "contents": "",
     "dirty": false,
     "created": 1589355625678.0,
@@ -11,16 +11,16 @@
     "relative_order": 4,
     "properties": {
         "tempName": "Untitled2",
-        "cursorPosition": "115,0",
+        "cursorPosition": "119,3",
         "scrollLine": "88",
         "last_setup_crc32": "7AFBB9AAbb338d19"
     },
     "folds": "",
-    "lastKnownWriteTime": 1589360656,
+    "lastKnownWriteTime": 1589965750,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1589965271197,
+    "last_content_update": 1589965748325,
     "read_only": false,
     "read_only_alternatives": []
 }
