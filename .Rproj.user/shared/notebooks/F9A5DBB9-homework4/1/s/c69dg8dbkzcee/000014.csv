@@ -1,8 +1,0 @@
-"0","A_list <- str_extract_all(twoNames, ""段(兄|兄弟)(?!弟)"")"
-"0","back_regex <- A_list[[1]]"
-"0","back_regex"
-"1","[1]"
-"1"," ""段兄""  "
-"1"," ""段兄弟"""
-"1","
-"

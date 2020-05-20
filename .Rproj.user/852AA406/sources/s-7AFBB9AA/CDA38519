@@ -1,0 +1,32 @@
+{
+    "id": "CDA38519",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1589963676868.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "expression": "f68",
+        "caption": "f68",
+        "totalObservations": 33,
+        "displayedObservations": 33,
+        "variables": 5,
+        "cacheKey": "CB0499E2",
+        "object": "f68",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=f68&cache_key=CB0499E2&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 8030874102432819570,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1589963676868,
+    "read_only": false,
+    "read_only_alternatives": []
+}
