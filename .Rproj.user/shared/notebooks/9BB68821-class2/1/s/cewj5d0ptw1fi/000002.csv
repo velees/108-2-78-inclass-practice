@@ -1,6 +1,0 @@
-"0","levels(covid19$縣市) # 是名稱字串向量"
-"1","NULL
-"
-"0","# 由於population元素值有names，可以用`[名稱字串向量]`取出所要的"
-"0","levels(covid19$縣市) -> levelsInData"
-"0","population[levelsInData] -> population"

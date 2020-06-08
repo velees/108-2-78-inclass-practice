@@ -1,0 +1,4 @@
+"0","supply <- function(p){"
+"0","  q_s <- 0+2*p"
+"0","return(q_s)"
+"0","  }"
