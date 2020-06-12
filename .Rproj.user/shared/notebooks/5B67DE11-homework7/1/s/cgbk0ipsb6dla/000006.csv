@@ -1,0 +1,8 @@
+"0","n <- 4444"
+"0","`1st_odd_or_even` <- "
+"0","  if(as.logical(n %% 2)){"
+"0","    fvalue <- 1"
+"0","  } else {"
+"0","    fvalue <- 0"
+"0","  }"
+"0","# `1st_odd_or_even`"
