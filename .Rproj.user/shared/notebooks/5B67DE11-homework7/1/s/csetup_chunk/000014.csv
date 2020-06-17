@@ -1,5 +1,0 @@
-"0","knitr::opts_chunk$set(echo = F, eval=F)"
-"0","library(readr); library(stringr); library(purrr); library(magrittr); library(lubridate)"
-"2","Error: package or namespace load failed for 'readr' in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):
- there is no package called 'rlang'
-"

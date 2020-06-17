@@ -1,0 +1,170 @@
+---
+title: "class2"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+c(
+  "https://github.com/student1/108-2-78-inclass-practice", 
+  "github.com/student2 / 108-2-56-inclass-practice", 
+  "https://github.com/student3/108-2-56-inclass-practice",
+  "student4 / 108-2-56-inclass-practice",
+  "student5"
+) -> studentGithubURLs
+```
+
+```{r}
+target_regex <- 
+  "^https://github.com/[:graph:]+/108-2-(56|78)-inclass-practice"
+str_detect(studentGithubURLs, target_regex)
+```
+
+```{r}
+jsonlite::fromJSON("https://od.cdc.gov.tw/eic/Day_Confirmation_Age_County_Gender_19CoV.json") -> covid19
+```
+
+```{r}
+levels(covid19$性別)
+covid19$性別 <- factor(covid19$性別,
+                     c("男","女"))
+```
+
+```{r}
+jsonlite::fromJSON(
+  "https://www.dropbox.com/s/jckqryeh5zeat5w/regionPopulation.json?dl=1"
+) -> population
+unlist(population) -> population
+```
+
+```{r}
+print(population)
+class(population) # 判斷出是named integer vector
+names(population) # 元素名稱是台灣各縣市
+```
+
+```{r}
+levels(covid19$縣市) # 是名稱字串向量
+
+# 由於population元素值有names，可以用`[名稱字串向量]`取出所要的
+levels(covid19$縣市) -> levelsInData
+population[levelsInData] -> population
+```
+
+```{r}
+population <- sort(population, decreasing=T)
+population
+```
+
+```{r}
+table(covid19$縣市)
+sort(table(covid19$縣市),decreasing=T)
+```
+
+```{r}
+factor1 <- factor(
+  c("A","A","C","A","D","F","D","D")
+)
+factor1
+
+levels(factor1) <- c("優","佳","尚可","普") #不用一個一格挑出來改
+
+factor1
+```
+
+```{r}
+factor1 <- factor(c("新北市","台北市","台中市","彰化市","基隆市","苗栗縣","苗栗縣"))
+levels(factor1) #要先檢查LEVEL跑出來的結果順序
+```
+
+```{r}
+levels(factor1) <- c("中部","北部","北部","中部","北部","中部") #依據檢察的LEVEL結果重新改名
+factor1
+```
+
+```{r}
+library(purrr)
+```
+
+```{r}
+jsonlite::fromJSON("https://www.dropbox.com/s/6252gbdnv9owljm/dance.json?dl=1", simplifyDataFrame = F) -> dance
+```
+
+```{r}
+# 第一個dance表演名稱
+dance[[1]]$title
+# 第二個dance表演名稱
+dance[[2]]$title
+```
+
+```{r}
+map(dance, ~.x$title) ->
+  list_titles
+
+View(list_titles)
+```
+
+```{r}
+str(dance[[8]]$showInfo)
+map(dance[[8]]$showInfo, ~ .x$time)
+map(dance[[8]]$showInfo, ~ .x$location)
+```
+
+```{r}
+myFun <- function(n){
+  if(as.logical(n %% 2)){
+    fvalue <- -(n+1)/2
+  } else {
+    fvalue <- n/2
+  }
+  return(fvalue)
+}
+
+myFun(54)
+myFun(33)
+```
+
+```{r}
+example <- list(name = c("小明", "小花", "小新", "美美"), height = c(175, 
+    166, 170, 160), weight = c(77, NA, 60, 43), birthday = lubridate::ymd(c("1998-03-11", 
+    "1999-12-22", "1995-08-22", "2001-10-10")), hobby = c("美食 旅遊", "旅遊 時尚", 
+    "3C 美食", "音樂 旅遊"), residence = c("Taipei", "New Taipei", "Taichung", 
+    "Kaohsiung"), allowance = factor(c("0-1000", "1001-2000", "2000+", "1001-2000")), 
+    bloodType = c("A", "B", "B", "O"))
+str(example)
+```
+```{r}
+grade <- 80
+if(grade >=90){
+  print("優")
+} else if(grade>=70 & grade<=85){
+  print("尚可")
+} else if(grade>=75 & grade<=89){
+  print("良")
+} else {
+  print("待加強")
+}
+```
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

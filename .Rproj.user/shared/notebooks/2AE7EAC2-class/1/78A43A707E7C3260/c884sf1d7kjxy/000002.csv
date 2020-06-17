@@ -1,8 +1,0 @@
-"0","what_time_it_is <- function(timezone){"
-"0","  nowtime <- with_tz(now(), tz=timezone)"
-"0","  return(nowtime)"
-"0","}"
-"0","what_time_it_is(""Europe/Paris"")"
-"2","Error in with_tz(now(), tz = timezone) : 
-  could not find function ""with_tz""
-"
